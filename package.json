@@ -1,0 +1,17 @@
+{
+  "name": "@0xelod/uniswap-proxy",
+  "version": "1.0.0",
+  "description": "Uniswap proxy",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.mjs"
+  },
+  "author": "VargaElod23",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.18.3",
+    "http-proxy-middleware": "2.0.6"
+  }
+}
