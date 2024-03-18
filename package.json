@@ -2,17 +2,14 @@
   "name": "@0xelod/uniswap-proxy",
   "version": "1.0.0",
   "description": "Uniswap proxy",
-  "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "echo Building Functions",
-    "start": "node netlify/functions/api.mjs"
+    "build": "echo Building Functions"
   },
   "author": "VargaElod23",
   "license": "ISC",
   "dependencies": {
-    "node-fetch": "^3.3.2",
+    "node-fetch": "^2.6.6",
     "serverless-http": "^3.2.0"
   }
 }
