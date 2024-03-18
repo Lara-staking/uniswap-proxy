@@ -1,4 +1,0 @@
-[build]
-  functionsSource = "./functions"
-  node_bundler = "esbuild"
-  nodeVersion = "14"
