@@ -1,3 +1,6 @@
+[[edge_handlers]]
+  path = "/*"
+  handler = "index"
 [[headers]]
   for = "/*" # you can configure the correct paths here
   [headers.values]
