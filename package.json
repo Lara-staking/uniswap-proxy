@@ -10,6 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "@netlify/edge-functions": "^2.3.1",
+    "@netlify/functions": "^2.6.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.11.1",
     "node-fetch": "^2.6.6",
     "serverless-http": "^3.2.0"
   }
