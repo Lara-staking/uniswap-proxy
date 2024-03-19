@@ -3,7 +3,7 @@ export default async (request, context) => {
   return new Response(response.body, {
     headers: {
       "access-control-allow-origin": "*",
-      "access-control-allow-headers": "x-request-source",
+      "access-control-allow-headers": "x-request-source, content-type",
     },
   });
 };
