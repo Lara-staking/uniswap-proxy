@@ -81,6 +81,8 @@ const handler = async (req) => {
       }
     }),
   ]);
+
+  return new Response("Success", { status: 200 });
 };
 
 const config = {
